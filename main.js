@@ -8,8 +8,8 @@ app.use(bodyParser.json());
 const port = 3000;
 
 const moralisAPIKey = "";
-const TELEGRAM_BOT_TOKEN = '';
-const CHANNEL_CHAT_ID = '';
+const TELEGRAM_BOT_TOKEN = '7927369369:AAGMpoSVFK3o8S1gvQ5GfDtJXvKC5b1ZzR0';
+const CHANNEL_CHAT_ID = '-1002442313661';
 
 await Moralis.start({apiKey: moralisAPIKey})
 
